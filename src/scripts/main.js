@@ -3,9 +3,9 @@
 const table = document.querySelector('.field');
 
 const appendRowBtn = document.querySelector('.append-row button');
-const removeRowBtn = document.querySelecto('.remove-row button');
+const removeRowBtn = document.querySelector('.remove-row button');
 const appendColBtn = document.querySelector('.append-column button');
-const removeColBtn = document.querySelecto('.remove-column button');
+const removeColBtn = document.querySelector('.remove-column button');
 
 let rows = table.rows.length;
 let cols = table.rows[0].cells.length;
